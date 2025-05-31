@@ -11,7 +11,7 @@ const ListItems = () => {
 
   useEffect(() => {
     console.log("Component ListItems updated");
-  }, [items]);
+  }, []);
 
   return (
     <div>
